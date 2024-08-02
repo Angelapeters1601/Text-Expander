@@ -18,7 +18,6 @@ function Texts({
 
   const handleToggle = () => {
     setIsCollapsed(!isCollapsed);
-    setIsCollapsed((expanded = !isCollapsed));
   };
 
   const getDisplayText = () => {

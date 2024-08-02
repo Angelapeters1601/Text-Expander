@@ -5,8 +5,10 @@
 
 body {
   font-family: sans-serif;
-  background-color: rgb(220, 217, 210);
+  background-color: #f9eccf;
   letter-spacing: 0.8px;
+  width: 97%;
+  margin: 0 auto;
 }
 
 .title {
@@ -16,7 +18,12 @@ body {
 
 .box {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(232, 187, 187);
+  margin-top: 5px;
   border-radius: 7px;
   background-color: #f7f7f7;
+}
+
+button {
+  padding: 5px;
 }
