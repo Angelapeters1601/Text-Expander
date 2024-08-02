@@ -8,6 +8,7 @@ function TextExpander({
   collapseButtonText,
   buttonColor,
   expanded,
+  className,
 }) {
   return (
     <div>
@@ -18,6 +19,7 @@ function TextExpander({
         collapsedNumWords={collapsedNumWords}
         expandButtonText={expandButtonText}
         expanded={expanded}
+        className={className}
       />
     </div>
   );

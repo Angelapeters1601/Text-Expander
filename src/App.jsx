@@ -37,6 +37,7 @@ function App() {
         expandButtonText="Show more"
         collapseButtonText="Show less"
         buttonColor="#0000ff"
+        className="box"
       />
     </>
   );

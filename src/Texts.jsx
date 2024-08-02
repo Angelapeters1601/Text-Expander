@@ -7,6 +7,7 @@ function Texts({
   collapseButtonText,
   buttonColor,
   expanded = false,
+  className,
 }) {
   const buttonStyle = {
     color: buttonColor,
@@ -29,7 +30,7 @@ function Texts({
 
   return (
     <div>
-      <div className="box">
+      <div className={className}>
         {getDisplayText()}
         <button style={buttonStyle} onClick={handleToggle}>
           {isCollapsed ? expandButtonText : collapseButtonText}
