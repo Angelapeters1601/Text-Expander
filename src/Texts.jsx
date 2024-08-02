@@ -17,7 +17,7 @@ function Texts({
   const [isCollapsed, setIsCollapsed] = useState(!expanded);
 
   const handleToggle = () => {
-    setIsCollapsed(!isCollapsed);
+    setIsCollapsed((currState) => !currState);
   };
 
   const getDisplayText = () => {
